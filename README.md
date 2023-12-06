@@ -42,4 +42,4 @@ echo "$gretting everyone";
 
 #### Single vs double quotes
 
-Cannot Store variable in single quotes. Can Store variable in double quotes.
+Cannot Store variable in `single quotes`. Can Store variable in `double quotes`.
