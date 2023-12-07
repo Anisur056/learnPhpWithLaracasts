@@ -43,3 +43,25 @@ echo "$gretting everyone";
 #### Single vs double quotes
 
 Cannot Store variable in `single quotes`. Can Store variable in `double quotes`.
+
+## PHP For Beginners, Ep 5 - Conditionals and Booleans
+`https://www.youtube.com/watch?v=c2eThSDDwH0&list=PL3VM-unCzF8ipG50KDjnzhugceoSG3RTC&index=6`
+
+```
+<?php
+    $name = "Dark Matter";
+    $read = true;
+
+    if ($read) {
+        $message = "You have read $name";
+    }else{
+        $message = "You have Not read $name";
+    }
+?>
+<h1>
+    <?php echo $message; ?>
+
+    // Above Code can be Write in this way. Result are same.
+    <?= $message ?>
+</h1>
+```
